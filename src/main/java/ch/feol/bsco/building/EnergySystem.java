@@ -1,4 +1,4 @@
-package ch.feol.bsco.solar;
+package ch.feol.bsco.building;
 
 import ch.feol.bsco.quantity.Power;
 

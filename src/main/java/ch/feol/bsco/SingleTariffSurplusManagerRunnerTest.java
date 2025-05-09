@@ -7,10 +7,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import ch.feol.bsco.boiler.SurplusManagedBoilers;
+import ch.feol.bsco.building.EnergySystem;
 import ch.feol.bsco.clock.Clock;
 import ch.feol.bsco.clock.RealClock;
 import ch.feol.bsco.quantity.Power;
-import ch.feol.bsco.solar.EnergySystem;
 import ch.feol.bsco.solar.SolarLogEnergySystem;
 
 public class SingleTariffSurplusManagerRunnerTest {

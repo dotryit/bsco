@@ -76,7 +76,6 @@ public abstract class AbstractQuantity {
          }
          return maxLength;
       }
-
    }
 
    final long quantity;

@@ -42,11 +42,11 @@ public class Measurement {
       }
    }
 
-   List<Point> points = new ArrayList<>();
+   private List<Point> points = new ArrayList<>();
 
-   LocalDateTime startTimestamp = null;
+   private LocalDateTime startTimestamp = null;
 
-   LocalDateTime endTimestamp = null;
+   private LocalDateTime endTimestamp = null;
 
    public Measurement(String filename) {
       initValues(filename);
@@ -123,5 +123,9 @@ public class Measurement {
 
    public LocalDateTime getEndTimestamp() {
       return endTimestamp;
+   }
+
+   public List<Point> getPoints() {
+      return points;
    }
 }

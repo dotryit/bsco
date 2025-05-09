@@ -1,4 +1,4 @@
-package ch.feol.bsco.solar;
+package ch.feol.bsco.building;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -14,8 +14,8 @@ class MeasuredSimulationTest {
    @Test
    void test_december2024() {
       MeasuredSimulation testee = new MeasuredSimulation("20241218-20250101.txt", 0);
-      assertEquals(82132, testee.measurement.points.size());
-      Clock clock = testee.clock;
+      assertEquals(82132, testee.getMeasurement().getPoints().size());
+      Clock clock = testee.getClock();
       assertEquals(LocalDateTime.of(2024, 12, 18, 0, 0, 34, 485268300), clock.now());
 
       for (int i = 0; i < 116; i++) {

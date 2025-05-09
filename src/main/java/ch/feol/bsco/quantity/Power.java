@@ -141,4 +141,8 @@ public class Power extends AbstractQuantity {
    public boolean isNegative() {
       return quantity < 0;
    }
+
+   public double getKilowatt() {
+      return quantity / 1e6;
+   }
 }

@@ -1,5 +1,6 @@
 package ch.feol.bsco.solar;
 
+import ch.feol.bsco.building.EnergySystem;
 import ch.feol.bsco.quantity.Power;
 
 public class SolarLogEnergySystem implements EnergySystem {
